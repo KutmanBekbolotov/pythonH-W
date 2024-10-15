@@ -1,6 +1,6 @@
 print ('hello world')
 print ('Our project')
-
+print ('kutman added to dev')
 
 #git pull origin BranchName(takes all changes)
 #git push origin BranchName(gives cheges)
@@ -13,3 +13,4 @@ print ('Our project')
 #git config --global user.email"@gmai.com"
 
 #git checkout BranchName(switch between branches)
+#git fetch origin BranchName(fetching branches)
