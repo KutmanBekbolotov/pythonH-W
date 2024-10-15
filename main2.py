@@ -2,6 +2,13 @@ print ('hello world')
 print ('Our project')
 print ('kutman added to dev')
 
+num1 = 200
+num2 = 300
+res = 0
+
+res = num1 + num2
+print(res)
+
 #git pull origin BranchName(takes all changes)
 #git push origin BranchName(gives cheges)
 
