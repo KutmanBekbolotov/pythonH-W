@@ -20,4 +20,3 @@ if 1 <= number <= 12:
 else:
     print("Undefined try again")
 
-    

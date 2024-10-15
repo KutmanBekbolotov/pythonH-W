@@ -1,3 +1,5 @@
+
+
 n = int(input("Введите число для вычисления факториала: "))
 
 factorial = 1
@@ -9,4 +11,7 @@ elif n == 0:
 else:
     for i in range(1, n + 1):
         factorial *= i
+    
     print(f'Factorial of number {n} equals {factorial}')
+    
+    

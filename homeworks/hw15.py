@@ -11,3 +11,4 @@ for digit in digits:
 
 print(f"Сумма цифр: {sum_of_digits}")
 print(f"Произведение цифр: {product_of_digits}")
+
