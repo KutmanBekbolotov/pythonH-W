@@ -12,4 +12,4 @@ print ('Our project')
 #git config --global user.name"antago7"
 #git config --global user.email"@gmai.com"
 
-#git checkout BranchName(switch branch)
+#git checkout BranchName(switch between branches)
