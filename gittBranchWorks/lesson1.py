@@ -1,21 +1,30 @@
-#add here your tasks
+def multiply_matrices(matrix_a, matrix_b):
 
-#если захотите запустить код который тут напишите,
-#то надо в терминале перейти на папку(gittBranchWorks) с помощью 'cd'
-#затем запустить 'python3 lesson1.py'.  
+    if len(matrix_a[0]) != len(matrix_b):
+        raise ValueError("Matrix cannot be multiply")
+    
+    result = [[0 for _ in range(len(matrix_b[0]))]
+              for _ in range(len(matrix_a))]
+    
+    for i in range(len(matrix_a)):
+        for j in range(len(matrix_b[0])):
+            for k in range(len((matrix_b))):
+                result[i][j] += matrix_a[i][k] * matrix_b[k][j]
 
-# 1 -> one
-# 2 -> two
+    return result
 
-num = int(input('Enter number: '))
+matrix_a = [
+    [1, 2, 3],
+    [4, 5, 6],
+]
 
-if num == 1:
-    print('One')
-elif num == 2:
-    print('Two')
-elif num == 3:
-    print('Three')
-elif num == 4:
-    print('Four')
-else:
-    print('Error')
+matrix_b = [
+    [7, 8],
+    [9, 10],
+    [11, 12]
+]
+
+result = multiply_matrices(matrix_a, matrix_b)
+
+for row in result:
+    print(row)
