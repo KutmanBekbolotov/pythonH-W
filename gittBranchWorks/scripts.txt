@@ -1,0 +1,13 @@
+def name of function(can be any name): <- (must be here)
+
+for i in range: <- (must be here)
+
+def function():
+
+    any script writen at the
+    right tab of the function
+    it's function
+
+
+    <--
+out of function
